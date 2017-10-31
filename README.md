@@ -35,3 +35,11 @@ This extension borrow a lot from [extension](https://github.com/FriendsOfBehat/S
 
 3. Write services files definitions, that are [generally accepted by Symfony](https://symfony.com/doc/current/components/dependency_injection.html) with format `yml`, `xml` or `PHP`.
 [Check out examples](https://github.com/timiTao/behat-symfony-container/blob/master/features/import.feature)
+
+## Versioning
+ 
+Staring version ``1.0.0``, will follow [Semantic Versioning v2.0.0](http://semver.org/spec/v2.0.0.html).
+
+## Contributors
+
+* Tomasz Kunicki [TimiTao](http://github.com/timiTao) [lead developer]
