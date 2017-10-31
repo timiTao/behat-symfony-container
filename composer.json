@@ -1,0 +1,27 @@
+{
+  "name": "timitao/behat-symfony-container",
+  "description": "Allows to declare own services inside Behat loaded by symfony service manager",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tomasz Kunicki"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "behat/behat": "~3.3",
+    "psr/container": "^1.0"
+  },
+  "require-dev": {
+    "symfony/process": "~2.1",
+    "phpunit/phpunit": "4.3.*"
+  },
+  "suggest": {
+    "timitao/behat-aggregate-container": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TimiTao\\BehatSymfonyContainer\\": "src/"
+    }
+  }
+}

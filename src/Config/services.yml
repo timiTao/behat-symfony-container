@@ -1,0 +1,15 @@
+services:
+    timitao_behat_symfony_container.container:
+        shared: false
+        class:  TimiTao\BehatSymfonyContainer\Service\Container
+        factory: ['@timitao_behat_symfony_container.container.factory', factory]
+        arguments:
+            - "%timitao_behat_symfony_container.files%"
+        tags:
+            - { name: aggregate_container_extension.aggregate_tag }
+            - { name: helper_container.container }
+
+    timitao_behat_symfony_container.container.factory:
+        class: 'TimiTao\BehatSymfonyContainer\Factory\ContainerFactory'
+        arguments:
+            - "%paths.base%"
