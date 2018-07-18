@@ -27,7 +27,7 @@ This extension borrow a lot from [extension](https://github.com/FriendsOfBehat/S
                 services: "@timitao_behat_symfony_container.container"
         extensions:
             TimiTao\BehatSymfonyContainer\ServiceContainer\Extension:
-                imports:
+                configs:
                     - "PATH_TO_FILE"
                     - "PATH_TO_FILE"
                     - "PATH_TO_FILE"
