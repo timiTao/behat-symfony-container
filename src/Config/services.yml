@@ -1,5 +1,6 @@
 services:
     timitao_behat_symfony_container.container:
+        public: true
         shared: false
         class:  TimiTao\BehatSymfonyContainer\Service\Container
         factory: ['@timitao_behat_symfony_container.container.factory', factory]
